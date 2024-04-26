@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    background-image: url("background2.png");
+    color: aqua;
+    /*background-color: #66ae8a; */
+}
+
+#dealer-cards img{
+    width: 125px;
+    height: 175px;
+    margin: 3px;
+}
+
+#your-cards img{
+    width: 125px;
+    height: 175px;
+    margin: 3px;
+}
+
+button {
+    width: 150px;
+    height: auto;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover, button:focus, button:active {
+    box-shadow: 0, 0, 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.25;
+}
